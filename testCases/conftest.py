@@ -39,10 +39,10 @@ def browser(request):
 
 # It is a hook for adding environment into the html report
 
-def pytest_configure(config):
-    config._metadata['Project_Name'] = 'nop Commerce'
-    config._metadata['Module_Name'] = 'Customers'
-    config._metadata['Tester'] = 'Dhiraj'
+# def pytest_configure(config):
+#     config._metadata['Project_Name'] = 'nop Commerce'
+#     config._metadata['Module_Name'] = 'Customers'
+#     config._metadata['Tester'] = 'Dhiraj'
 
 # It is a hook for deleting/modifying environment into the html report
 
